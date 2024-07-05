@@ -33,8 +33,7 @@ public class ExprSort extends SimpleExpression<Object> {
     private Expression<String> func;
 
     static {
-        Skript.registerExpression(ExprSort.class, Object.class, ExpressionType.COMBINED, "[skessentials] sorted %objects%",
-                                                                                         "[skessentials] sorted %objects% (using|by) [the] [function] %string%");
+        Skript.registerExpression(ExprSort.class, Object.class, ExpressionType.COMBINED, "skessentials sorted %objects% (using|by) [the] [function] %string%");
     }
 
     @Override
